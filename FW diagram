@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f9; padding: 20px; }
+        .container { max-width: 1200px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; border-bottom: 2px solid #005073; padding-bottom: 20px; margin-bottom: 20px; }
+        .logo { font-size: 24px; font-weight: bold; color: #005073; }
+        .location { font-size: 14px; color: #666; }
+        .architecture-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .procurement-path { border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+        .layer { background: #eef; padding: 10px; margin: 5px 0; border: 1px solid #ccd; text-align: center; }
+        .firewall-box { background: #ffcccc; border: 2px solid #cc0000; padding: 10px; margin: 10px 0; display: flex; justify-content: space-around; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="logo">Qumulus AI</div>
+        <div class="location">Atlanta, GA</div>
+        <h1>128-Node B300 GPU Cluster Architecture</h1>
+    </div>
+
+    <!-- Edge Layer with 3 Firewalls -->
+    <div class="firewall-box">
+        <div><strong>Firewall 1</strong></div>
+        <div><strong>Firewall 2</strong></div>
+        <div><strong>Firewall 3</strong></div>
+    </div>
+
+    <div class="architecture-grid">
+        <!-- Neo Path -->
+        <div class="procurement-path">
+            <h3>Neo Procurement Path</h3>
+            <p>Partners: Qumulus, Cirrascale, Massed Compute</p>
+            <div class="layer">Compute Fabric (Dual-Plane)</div>
+            <div class="layer">VAST Storage (1.5 PB)</div>
+            <div class="layer">BYOL Licensing Integration</div>
+        </div>
+
+        <!-- Enterprise Path -->
+        <div class="procurement-path">
+            <h3>Enterprise Procurement Path</h3>
+            <p>Programs: EA (Enterprise Agreement), WPAS</p>
+            <div class="layer">Standard Cisco Nexus Fabric</div>
+            <div class="layer">Cisco UCS C880A Management</div>
+            <div class="layer">BYOL Licensing Integration</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
